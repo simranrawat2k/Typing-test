@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+#root{
+    width:70%;
+    margin-inline: auto;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 1.5rem;
+    padding-top:3em;
+
+}
+
+.header h1{
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', sans-serif;
+    letter-spacing: 5px;
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-btn button{
+    background-color: white;
+    color: black;
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+
+.typingbox{
+    margin-top:3em;
+}
+
+.typingbox .showTime{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.timeOptions button{
+    border: none;
+    font-size: 1.2rem;
+    cursor:pointer;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.showTime{
+    margin-bottom:2em;
+}
+
+.text p{
+    font-size: 1.5rem;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.476);
+    font-family:monospace;
+}
+
+.footer{
+    position:fixed;
+    bottom: 0;
+    width:70%;
+}
+
+.footer .button{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap:10px;
+}
+
+.resetIcon button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+}
+
+.esc{
+    display:flex;
+    align-items: center;
+}
+
+.esc span{
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding:5px;
+}
+
+.esc > *{
+    margin-left:12px;
+}
+
+.wordsNumber{
+    display: flex;
+    gap:10px;
+    font-size: 1.2rem;
+    margin-top:1.2em;
+}
+
+.wordsNumber button{
+    font-weight: 700;
+    padding:5px;
+    width:50px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor:pointer;  
+}
+
+.links{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.links .contact button{
+    background-color: transparent;
+    color:blue;
+    font-size: 2rem;
+    border:none;
+    margin-right:0.6em;
+    cursor:pointer;
+}
+
+.theme select {
+    height: 40px;
+    font-size: 16px;
+}
+
+
+.theme select option{
+    padding:20px;
+}
+
